@@ -37,10 +37,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp GLOBE  &kp LEFT_CONTROL  &kp LALT   &kp LGUI    &kp PRCNT     &kp CARET   &kp AMPS  &kp UP    &kp LPAR   &kp RPAR  &kp BSPC
-&kp LCTRL  &kp INS    &kp HOME          &kp PG_UP  &bt BT_PRV  &bt BT_NXT    &kp MINUS   &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &kp DEL    &kp END           &kp PG_DN  &trans      &trans        &kp UNDER   &kp PLUS  &kp LBRC  &kp RBRC   &kp PIPE  &kp TILDE
-                                        &trans     &trans      &trans        &kp DELETE  &kp TAB   &trans
+&kp TAB    &kp GLOBE  &kp LEFT_CONTROL  &kp LALT   &kp LGUI      &kp PRCNT       &kp CARET   &kp AMPS  &kp UP    &kp LPAR   &kp RPAR  &kp BSPC
+&kp LCTRL  &kp INS    &kp HOME          &kp PG_UP  &bt BT_SEL 0  &bt BT_SEL 1    &kp MINUS   &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH  &kp GRAVE
+&kp LSHFT  &kp DEL    &kp END           &kp PG_DN  &bt BT_SEL 2  &bt BT_SEL 3    &kp UNDER   &kp PLUS  &kp LBRC  &kp RBRC   &kp PIPE  &kp TILDE
+                                        &trans     &trans        &trans          &kp DELETE  &kp TAB   &trans
             >;
 
             label = "nav_and_shortcuts";
