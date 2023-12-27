@@ -43,7 +43,7 @@
                                         &trans     &trans        &trans          &kp DELETE  &kp TAB   &trans
             >;
 
-            label = "nav_and_shortcuts";
+            label = "nav";
         };
 
         numpad_and_symbols {
