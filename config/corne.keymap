@@ -38,7 +38,7 @@
 
             bindings = <
 &kp TAB    &kp GLOBE  &kp LEFT_CONTROL  &kp LALT   &kp LGUI      &kp PRCNT       &kp CARET   &kp AMPS  &kp UP    &kp LPAR   &kp RPAR  &kp BSPC
-&kp LCTRL  &kp INS    &kp HOME          &kp PG_UP  &bt BT_SEL 0  &bt BT_SEL 1    &kp MINUS   &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH  &kp GRAVE
+&kp LCTRL  &kp INS    &kp HOME          &kp PG_UP  &bt BT_SEL 0  &bt BT_SEL 1    &kp ESC     &kp LEFT  &kp DOWN  &kp RIGHT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &kp DEL    &kp END           &kp PG_DN  &bt BT_SEL 2  &bt BT_SEL 3    &kp UNDER   &kp PLUS  &kp LBRC  &kp RBRC   &kp PIPE  &kp TILDE
                                         &trans     &trans        &trans          &kp DELETE  &kp TAB   &trans
             >;
@@ -54,10 +54,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp BACKSPACE    &kp SEMICOLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH    &kp KP_SLASH  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp BSPC
-&bt BT_CLR  &kp EXCLAMATION  &kp AT         &kp HASH              &kp DOLLAR             &kp PERCENT      &kp KP_COMMA  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_EQUAL  &trans
-&kp LSHFT   &trans           &kp GRAVE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH        &kp KP_N0     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &trans
-                                            &trans                &kp LEFT_CONTROL       &kp LEFT_ALT     &trans        &trans     &trans
+&kp TAB     &kp BACKSPACE    &kp SEMICOLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH    &kp SLASH  &kp N7  &kp N8  &kp N9  &kp MINUS   &kp BSPC
+&bt BT_CLR  &kp EXCLAMATION  &kp AT         &kp HASH              &kp DOLLAR             &kp PERCENT      &kp COMMA  &kp N4  &kp N5  &kp N6  &kp EQUAL   &trans
+&kp LSHFT   &kp UNDERSCORE   &kp GRAVE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH        &kp N0     &kp N1  &kp N2  &kp N3  &kp PERIOD  &trans
+                                            &trans                &kp LEFT_CONTROL       &kp LEFT_ALT     &trans     &trans  &trans
             >;
 
             label = "numpad";
